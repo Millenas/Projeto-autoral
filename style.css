@@ -10,11 +10,11 @@ body{
 }
 
 .banner-div{
-    height: 50vh;
     margin-bottom: 30px;
     display: flex;
     text-align: center;
     background-image: url(imagens/banner\ site.png);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -23,6 +23,7 @@ body{
     .banner-div{
         margin-bottom: 10px;
         height: 100%;
+        width: 100%;
         display: flex;
         text-align: center;
 
@@ -31,7 +32,7 @@ body{
 
 .banner-container{
     max-width: 1080px;
-    margin: 5.5rem auto;
+    margin: 8rem auto;
 }
 
 @media (max-width: 768px){
