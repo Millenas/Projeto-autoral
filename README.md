@@ -1,8 +1,5 @@
-﻿# Projeto-autoral
+## :open_book: Dicionário de Mulheres da Tecnologia
 ## :bulb: Projeto autoral do curso EuProgramo Front-End II da Programaria 
-
-﻿# :open_book: Dicionário de Mulheres da Tecnologia
-
 
 :heavy_check_mark: Este projeto é um dicionário que lista as mulheres que fizeram história na tecnologia. <br> 
 
