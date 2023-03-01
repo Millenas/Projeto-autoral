@@ -1,0 +1,168 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+
+    font-family: 'Raleway', sans-serif;
+    background-color: #fdd4de;
+}
+
+.banner-div{
+    height: 50vh;
+    margin-bottom: 30px;
+    display: flex;
+    text-align: center;
+    background-image: url(imagens/banner\ site.png);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (max-width: 768px){
+    .banner-div{
+        margin-bottom: 10px;
+        height: 20vh;
+        display: flex;
+        text-align: center;
+
+    }
+}
+
+.banner-container{
+    max-width: 1080px;
+    margin: 5.5rem auto;
+}
+
+@media (max-width: 768px){
+    .banner-container{
+        margin: 1.5rem auto;
+    }
+    
+}
+
+.banner-titulo{
+    font-size: 4rem;
+    color: #FFF9EF;
+    text-shadow: 0.1em 0.1em 0.2em #2c0212;
+}
+
+@media (max-width: 768px){
+    .banner-titulo{
+        font-size: 2rem;
+    }
+}
+
+section{
+    margin: 0 auto;
+    display: block;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.card{
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #fc87a4;
+    background-color: #F5A7BB;
+    vertical-align: top;
+    max-height: 100%;
+    border-radius: 2%;
+}
+
+@media (max-width: 768px){
+    .card{
+        display: block;
+        height: 100%;
+        margin: 30px 30px;
+    }
+}
+
+.card img{
+    display: block;
+    width: 300px;
+    height: 300px;
+    filter: grayscale(1);
+    border-radius: 2%;
+}
+
+@media (max-width: 768px){
+    .card img{
+        width: 100%;
+        height: 100%;
+        filter: grayscale(1);
+    }
+} 
+
+.card details{
+    width: 300px;
+    height: auto;
+    display: inline-block
+}
+
+@media (max-width: 768px){
+    .card details{
+        width: 100%;
+    }
+} 
+
+.card details summary{
+    font-size: 18px;
+    padding: 10px;
+}
+
+@media (max-width: 768px){
+    .card details summary{
+        font-size: 16px;
+    }
+} 
+
+.card details p{
+    padding: 0 10px;
+    text-align: justify
+}
+
+@media (max-width: 768px){
+    .card details p{
+        font-size: 14px;
+        text-align: justify
+    }
+} 
+
+.rodape_redes {
+    line-height: 0;
+    background: #99325B;
+    background-size:cover;
+    padding: 9px;
+    color: #FFF;
+    text-align:center;
+
+}
+
+
+.icones-sociais {
+    display: table;
+    justify-content: center;
+}
+
+
+footer img{
+    width: 5%;
+    height: 5%;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px){
+    footer img{
+        width: 20%;
+        height: 20%;
+    }
+}
+footer ul li {
+    display:inline;
+    padding: 5px;
+}
+
+footer p{
+    margin-bottom: 40px;
+}
