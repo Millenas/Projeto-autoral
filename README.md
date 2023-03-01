@@ -3,7 +3,7 @@
 
 :heavy_check_mark: Este projeto é um dicionário que lista as mulheres que fizeram história na tecnologia. <br> 
 
-![image](https://user-images.githubusercontent.com/43293325/222046455-c3721d07-704e-4311-b37f-77d7d447f6e8.png)
+![image](https://user-images.githubusercontent.com/43293325/222199630-1f0b2534-dbeb-4b99-aa60-bba7b4c3e70c.png)
 
 ## :woman_technologist: Feito com: 
 <div style="display: inline_block">
