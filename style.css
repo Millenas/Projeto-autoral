@@ -10,28 +10,25 @@ body{
 }
 
 .banner-div{
+ 
     margin-bottom: 30px;
     display: flex;
     text-align: center;
     background-image: url(imagens/banner\ site.png);
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 @media (max-width: 768px){
     .banner-div{
-        margin-bottom: 10px;
         height: 100%;
-        width: 100%;
-        display: flex;
+        display:flex;
         text-align: center;
-
     }
 }
 
 .banner-container{
-    max-width: 1080px;
     margin: 8rem auto;
 }
 
